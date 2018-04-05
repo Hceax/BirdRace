@@ -1,0 +1,324 @@
+fileFormatVersion: 2
+guid: b40fecc43b2d0a14a8f59a72a1d1bdda
+timeCreated: 1470233150
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: blender_implicit
+    100002: Body
+    100004: //RootNode
+    100006: fearow
+    100008: Head
+    100010: HeadFether1
+    100012: HeadFether2
+    100014: HeadFether3
+    100016: HeadFether4
+    100018: HeadFether5
+    100020: LeftBackToe
+    100022: LeftFether1
+    100024: LeftFether10
+    100026: LeftFether2
+    100028: LeftFether3
+    100030: LeftFether4
+    100032: LeftFether5
+    100034: LeftFether6
+    100036: LeftFether7
+    100038: LeftFether8
+    100040: LeftFether9
+    100042: LeftFoot
+    100044: LeftInsideToe
+    100046: LeftLeg
+    100048: LeftMiddleToe
+    100050: LeftOutsideToe
+    100052: LeftWing1
+    100054: LeftWing2
+    100056: LeftWing3
+    100058: LowerBeak
+    100060: Neck1
+    100062: Neck2
+    100064: Neck3
+    100066: RightBackToe
+    100068: RightFether1
+    100070: RightFether10
+    100072: RightFether2
+    100074: RightFether3
+    100076: RightFether4
+    100078: RightFether5
+    100080: RightFether6
+    100082: RightFether7
+    100084: RightFether8
+    100086: RightFether9
+    100088: RightFoot
+    100090: RightInsideToe
+    100092: RightLeg
+    100094: RightMiddleToe
+    100096: RightOutsideToe
+    100098: RightWing1
+    100100: RightWing2
+    100102: RightWing3
+    100104: Root
+    100106: Tail
+    100108: UpperBeak
+    400000: blender_implicit
+    400002: Body
+    400004: fearow
+    400006: //RootNode
+    400008: Head
+    400010: HeadFether1
+    400012: HeadFether2
+    400014: HeadFether3
+    400016: HeadFether4
+    400018: HeadFether5
+    400020: LeftBackToe
+    400022: LeftFether1
+    400024: LeftFether10
+    400026: LeftFether2
+    400028: LeftFether3
+    400030: LeftFether4
+    400032: LeftFether5
+    400034: LeftFether6
+    400036: LeftFether7
+    400038: LeftFether8
+    400040: LeftFether9
+    400042: LeftFoot
+    400044: LeftInsideToe
+    400046: LeftLeg
+    400048: LeftMiddleToe
+    400050: LeftOutsideToe
+    400052: LeftWing1
+    400054: LeftWing2
+    400056: LeftWing3
+    400058: LowerBeak
+    400060: Neck1
+    400062: Neck2
+    400064: Neck3
+    400066: RightBackToe
+    400068: RightFether1
+    400070: RightFether10
+    400072: RightFether2
+    400074: RightFether3
+    400076: RightFether4
+    400078: RightFether5
+    400080: RightFether6
+    400082: RightFether7
+    400084: RightFether8
+    400086: RightFether9
+    400088: RightFoot
+    400090: RightInsideToe
+    400092: RightLeg
+    400094: RightMiddleToe
+    400096: RightOutsideToe
+    400098: RightWing1
+    400100: RightWing2
+    400102: RightWing3
+    400104: Root
+    400106: Tail
+    400108: UpperBeak
+    4300000: fearow
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: fearow
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: blender_implicit
+        weight: 1
+      - path: fearow
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Body
+        weight: 1
+      - path: Root/Body/LeftLeg
+        weight: 1
+      - path: Root/Body/LeftLeg/LeftBackToe
+        weight: 1
+      - path: Root/Body/LeftLeg/LeftFoot
+        weight: 1
+      - path: Root/Body/LeftLeg/LeftFoot/LeftInsideToe
+        weight: 1
+      - path: Root/Body/LeftLeg/LeftFoot/LeftMiddleToe
+        weight: 1
+      - path: Root/Body/LeftLeg/LeftFoot/LeftOutsideToe
+        weight: 1
+      - path: Root/Body/LeftWing1
+        weight: 1
+      - path: Root/Body/LeftWing1/LeftWing2
+        weight: 1
+      - path: Root/Body/LeftWing1/LeftWing2/LeftFether1
+        weight: 1
+      - path: Root/Body/LeftWing1/LeftWing2/LeftFether2
+        weight: 1
+      - path: Root/Body/LeftWing1/LeftWing2/LeftFether3
+        weight: 1
+      - path: Root/Body/LeftWing1/LeftWing2/LeftWing3
+        weight: 1
+      - path: Root/Body/LeftWing1/LeftWing2/LeftWing3/LeftFether4
+        weight: 1
+      - path: Root/Body/LeftWing1/LeftWing2/LeftWing3/LeftFether5
+        weight: 1
+      - path: Root/Body/LeftWing1/LeftWing2/LeftWing3/LeftFether6
+        weight: 1
+      - path: Root/Body/LeftWing1/LeftWing2/LeftWing3/LeftFether7
+        weight: 1
+      - path: Root/Body/LeftWing1/LeftWing2/LeftWing3/LeftFether8
+        weight: 1
+      - path: Root/Body/LeftWing1/LeftWing2/LeftWing3/LeftFether9
+        weight: 1
+      - path: Root/Body/LeftWing1/LeftWing2/LeftWing3/LeftFether10
+        weight: 1
+      - path: Root/Body/Neck1
+        weight: 1
+      - path: Root/Body/Neck1/Neck2
+        weight: 1
+      - path: Root/Body/Neck1/Neck2/Neck3
+        weight: 1
+      - path: Root/Body/Neck1/Neck2/Neck3/Head
+        weight: 1
+      - path: Root/Body/Neck1/Neck2/Neck3/Head/HeadFether1
+        weight: 1
+      - path: Root/Body/Neck1/Neck2/Neck3/Head/HeadFether2
+        weight: 1
+      - path: Root/Body/Neck1/Neck2/Neck3/Head/HeadFether3
+        weight: 1
+      - path: Root/Body/Neck1/Neck2/Neck3/Head/HeadFether4
+        weight: 1
+      - path: Root/Body/Neck1/Neck2/Neck3/Head/HeadFether5
+        weight: 1
+      - path: Root/Body/Neck1/Neck2/Neck3/Head/LowerBeak
+        weight: 1
+      - path: Root/Body/Neck1/Neck2/Neck3/Head/UpperBeak
+        weight: 1
+      - path: Root/Body/RightLeg
+        weight: 1
+      - path: Root/Body/RightLeg/RightBackToe
+        weight: 1
+      - path: Root/Body/RightLeg/RightFoot
+        weight: 1
+      - path: Root/Body/RightLeg/RightFoot/RightInsideToe
+        weight: 1
+      - path: Root/Body/RightLeg/RightFoot/RightMiddleToe
+        weight: 1
+      - path: Root/Body/RightLeg/RightFoot/RightOutsideToe
+        weight: 1
+      - path: Root/Body/RightWing1
+        weight: 1
+      - path: Root/Body/RightWing1/RightWing2
+        weight: 1
+      - path: Root/Body/RightWing1/RightWing2/RightFether1
+        weight: 1
+      - path: Root/Body/RightWing1/RightWing2/RightFether2
+        weight: 1
+      - path: Root/Body/RightWing1/RightWing2/RightFether3
+        weight: 1
+      - path: Root/Body/RightWing1/RightWing2/RightWing3
+        weight: 1
+      - path: Root/Body/RightWing1/RightWing2/RightWing3/RightFether4
+        weight: 1
+      - path: Root/Body/RightWing1/RightWing2/RightWing3/RightFether5
+        weight: 1
+      - path: Root/Body/RightWing1/RightWing2/RightWing3/RightFether6
+        weight: 1
+      - path: Root/Body/RightWing1/RightWing2/RightWing3/RightFether7
+        weight: 1
+      - path: Root/Body/RightWing1/RightWing2/RightWing3/RightFether8
+        weight: 1
+      - path: Root/Body/RightWing1/RightWing2/RightWing3/RightFether9
+        weight: 1
+      - path: Root/Body/RightWing1/RightWing2/RightWing3/RightFether10
+        weight: 1
+      - path: Root/Body/Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 6
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

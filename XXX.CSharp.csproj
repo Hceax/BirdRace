@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{373946AB-9B0C-9025-1094-CC5F2B25AA47}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.3.5f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_5;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_5;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Demo\Scripts\Demo.cs" />
+    <Compile Include="Assets\Demo\Scripts\InputManagerBack.cs" />
+    <Compile Include="Assets\Demo\Scripts\InputManagerMenu.cs" />
+    <Compile Include="Assets\Demo\Scripts\InputManagerPayMenu.cs" />
+    <Compile Include="Assets\Demo\Scripts\MenuController.cs" />
+    <Compile Include="Assets\Demo\Scripts\MojingTextureBaker.cs" />
+    <Compile Include="Assets\Demo\Scripts\PayMenuController.cs" />
+    <Compile Include="Assets\Demo\Scripts\RulerController.cs" />
+    <Compile Include="Assets\Demo\Scripts\SetOverlayFPS.cs" />
+    <Compile Include="Assets\Demo\Scripts\UIEventListener.cs" />
+    <Compile Include="Assets\Demo\Scripts\UIListController.cs" />
+    <Compile Include="Assets\Demo\Scripts\getParameter.cs" />
+    <Compile Include="Assets\Demo\Scripts\uGUICenterCross.cs" />
+    <Compile Include="Assets\Demo\Scripts\uGUICrossNodeBase.cs" />
+    <Compile Include="Assets\Game\Online\Script\Choose\CharacterSelect_Net.cs" />
+    <Compile Include="Assets\Game\Online\Script\Controller\BirdControl_Net.cs" />
+    <Compile Include="Assets\Game\Online\Script\Controller\InputControl_Net.cs" />
+    <Compile Include="Assets\Game\Online\Script\Fire_Net.cs" />
+    <Compile Include="Assets\Game\Online\Script\Food\Coin_Net.cs" />
+    <Compile Include="Assets\Game\Online\Script\Food\Egg_Net.cs" />
+    <Compile Include="Assets\Game\Online\Script\Health.cs" />
+    <Compile Include="Assets\Game\Online\Script\LookAt\BirdLookAt.cs" />
+    <Compile Include="Assets\Game\Online\Script\LookAt\LookAtCamera.cs" />
+    <Compile Include="Assets\Game\Online\Script\NetworkManager_Custom.cs" />
+    <Compile Include="Assets\Game\Online\Script\Overall_Net\ButtonShoot_Net.cs" />
+    <Compile Include="Assets\Game\Online\Script\Overall_Net\ButtonSpeedUp_Net.cs" />
+    <Compile Include="Assets\Game\Online\Script\Overall_Net\OnlineSystem.cs" />
+    <Compile Include="Assets\Game\Online\Script\Overall_Net\StartPosition.cs" />
+    <Compile Include="Assets\Game\Online\Script\Purse_Net.cs" />
+    <Compile Include="Assets\Game\Online\Script\ScorinSystem_Net.cs" />
+    <Compile Include="Assets\Game\Online\Script\TimeControl_Net.cs" />
+    <Compile Include="Assets\Game\Resources\Ground\Scripts\TexturePan.cs" />
+    <Compile Include="Assets\Game\Resources\Ground\Standard Assets\Environment\Water (Basic)\Scripts\WaterBasic.cs" />
+    <Compile Include="Assets\Game\Resources\Ground\Standard Assets\Environment\Water\Water\Scripts\Displace.cs" />
+    <Compile Include="Assets\Game\Resources\Ground\Standard Assets\Environment\Water\Water\Scripts\GerstnerDisplace.cs" />
+    <Compile Include="Assets\Game\Resources\Ground\Standard Assets\Environment\Water\Water\Scripts\MeshContainer.cs" />
+    <Compile Include="Assets\Game\Resources\Ground\Standard Assets\Environment\Water\Water\Scripts\PlanarReflection.cs" />
+    <Compile Include="Assets\Game\Resources\Ground\Standard Assets\Environment\Water\Water\Scripts\SpecularLighting.cs" />
+    <Compile Include="Assets\Game\Resources\Ground\Standard Assets\Environment\Water\Water\Scripts\Water.cs" />
+    <Compile Include="Assets\Game\Resources\Ground\Standard Assets\Environment\Water\Water\Scripts\WaterBase.cs" />
+    <Compile Include="Assets\Game\Resources\Ground\Standard Assets\Environment\Water\Water\Scripts\WaterTile.cs" />
+    <Compile Include="Assets\Game\Resources\Prefabs\Hunter\Scripts\NewAI.cs" />
+    <Compile Include="Assets\Game\Resources\Prefabs\Hunter\Scripts\Shell.cs" />
+    <Compile Include="Assets\Game\Single\Script\AudioSprint.cs" />
+    <Compile Include="Assets\Game\Single\Script\ButtonPause.cs" />
+    <Compile Include="Assets\Game\Single\Script\ButtonShoot.cs" />
+    <Compile Include="Assets\Game\Single\Script\ButtonSpeedUp.cs" />
+    <Compile Include="Assets\Game\Single\Script\Choose\CharacterSelect.cs" />
+    <Compile Include="Assets\Game\Single\Script\Food\Coin.cs" />
+    <Compile Include="Assets\Game\Single\Script\Food\Egg.cs" />
+    <Compile Include="Assets\Game\Single\Script\Player\BirdControl.cs" />
+    <Compile Include="Assets\Game\Single\Script\Player\Bullet.cs" />
+    <Compile Include="Assets\Game\Single\Script\Player\InputControl.cs" />
+    <Compile Include="Assets\Game\Single\Script\Player\InputModel.cs" />
+    <Compile Include="Assets\Game\Single\Script\Player\PlayerControl.cs" />
+    <Compile Include="Assets\Game\Single\Script\ScorinSystem.cs" />
+    <Compile Include="Assets\Game\Single\Script\TimeControl.cs" />
+    <Compile Include="Assets\JoyStick\Script\JoyStick.cs" />
+    <Compile Include="Assets\MojingSDK\Scripts\Callback.cs" />
+    <Compile Include="Assets\MojingSDK\Scripts\ConfigItem.cs" />
+    <Compile Include="Assets\MojingSDK\Scripts\CrossPlatformInputManager.cs" />
+    <Compile Include="Assets\MojingSDK\Scripts\GazeInputModule.cs" />
+    <Compile Include="Assets\MojingSDK\Scripts\IntegrateInputManager\CrossPlatformInputManager.cs" />
+    <Compile Include="Assets\MojingSDK\Scripts\IntegrateInputManager\InputSource.cs" />
+    <Compile Include="Assets\MojingSDK\Scripts\IntegrateInputManager\MobileInput.cs" />
+    <Compile Include="Assets\MojingSDK\Scripts\IntegrateInputManager\MojingInputManager.cs" />
+    <Compile Include="Assets\MojingSDK\Scripts\IntegrateInputManager\StandaloneInput.cs" />
+    <Compile Include="Assets\MojingSDK\Scripts\IntegrateInputManager\UnityInput.cs" />
+    <Compile Include="Assets\MojingSDK\Scripts\IntegrateInputManager\VirtualInput.cs" />
+    <Compile Include="Assets\MojingSDK\Scripts\LitJson\IJsonWrapper.cs" />
+    <Compile Include="Assets\MojingSDK\Scripts\LitJson\JsonData.cs" />
+    <Compile Include="Assets\MojingSDK\Scripts\LitJson\JsonException.cs" />
+    <Compile Include="Assets\MojingSDK\Scripts\LitJson\JsonMapper.cs" />
+    <Compile Include="Assets\MojingSDK\Scripts\LitJson\JsonReader.cs" />
+    <Compile Include="Assets\MojingSDK\Scripts\LitJson\JsonWriter.cs" />
+    <Compile Include="Assets\MojingSDK\Scripts\LitJson\Lexer.cs" />
+    <Compile Include="Assets\MojingSDK\Scripts\LitJson\ParserToken.cs" />
+    <Compile Include="Assets\MojingSDK\Scripts\Mojing.cs" />
+    <Compile Include="Assets\MojingSDK\Scripts\Mojing1stController.cs" />
+    <Compile Include="Assets\MojingSDK\Scripts\Mojing3rdCamera.cs" />
+    <Compile Include="Assets\MojingSDK\Scripts\Mojing3rdController.cs" />
+    <Compile Include="Assets\MojingSDK\Scripts\MojingEye.cs" />
+    <Compile Include="Assets\MojingSDK\Scripts\MojingKeyCode.cs" />
+    <Compile Include="Assets\MojingSDK\Scripts\MojingLog.cs" />
+    <Compile Include="Assets\MojingSDK\Scripts\MojingLoginPay.cs" />
+    <Compile Include="Assets\MojingSDK\Scripts\MojingRender.cs" />
+    <Compile Include="Assets\MojingSDK\Scripts\MojingReport.cs" />
+    <Compile Include="Assets\MojingSDK\Scripts\MojingSDK.cs" />
+    <Compile Include="Assets\MojingSDK\Scripts\MojingVRHead.cs" />
+    <Compile Include="Assets\MojingSDK\Scripts\PlaceCursor.cs" />
+    <Compile Include="Assets\MojingSDK\Scripts\Pose3D.cs" />
+    <Compile Include="Assets\MojingSDK\Scripts\SetOverlay.cs" />
+    <Compile Include="Assets\Start\Script\Audio.cs" />
+    <Compile Include="Assets\Start\Script\Drama\Drama.cs" />
+    <Compile Include="Assets\Start\Script\Guide\Guide.cs" />
+    <Compile Include="Assets\Start\Script\Opening.cs" />
+    <Compile Include="Assets\Start\Script\Overall.cs" />
+    <Compile Include="Assets\Start\Script\SceneJump.cs" />
+    <Compile Include="Assets\Start\Script\Set\Set.cs" />
+    <Compile Include="Assets\Start\Script\Setting.cs" />
+    <Compile Include="Assets\Start\Script\Teamwork\Teamwork.cs" />
+    <Compile Include="Assets\VR\Script\VRmode.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Demo\Scripts\BackMesh.shader" />
+    <None Include="Assets\Game\Resources\Ground\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+    <None Include="Assets\Game\Resources\Ground\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+    <None Include="Assets\Game\Resources\Ground\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+    <None Include="Assets\Game\Resources\Ground\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+    <None Include="Assets\Game\Resources\Ground\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>

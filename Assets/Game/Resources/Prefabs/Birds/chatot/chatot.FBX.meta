@@ -1,0 +1,224 @@
+fileFormatVersion: 2
+guid: 237174c43a9a96f44a3185c4e1abba76
+timeCreated: 1470232700
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: blender_implicit
+    100002: Bone
+    100004: Bone.001
+    100006: Bone.002
+    100008: Bone.003
+    100010: Bone.005
+    100012: Bone.006
+    100014: Bone.007
+    100016: Bone_L.001
+    100018: Bone_L.002
+    100020: Bone_L.003
+    100022: Bone_L.004
+    100024: Bone_L.005
+    100026: Bone_L.006
+    100028: Bone_L.007
+    100030: Bone_L.008
+    100032: Bone_L.009
+    100034: Bone_L.010
+    100036: Bone_R.001
+    100038: Bone_R.002
+    100040: Bone_R.003
+    100042: Bone_R.004
+    100044: Bone_R.005
+    100046: Bone_R.006
+    100048: Bone_R.007
+    100050: Bone_R.008
+    100052: Bone_R.009
+    100054: Bone_R.010
+    100056: //RootNode
+    100058: chatot
+    400000: blender_implicit
+    400002: Bone
+    400004: Bone.001
+    400006: Bone.002
+    400008: Bone.003
+    400010: Bone.005
+    400012: Bone.006
+    400014: Bone.007
+    400016: Bone_L.001
+    400018: Bone_L.002
+    400020: Bone_L.003
+    400022: Bone_L.004
+    400024: Bone_L.005
+    400026: Bone_L.006
+    400028: Bone_L.007
+    400030: Bone_L.008
+    400032: Bone_L.009
+    400034: Bone_L.010
+    400036: Bone_R.001
+    400038: Bone_R.002
+    400040: Bone_R.003
+    400042: Bone_R.004
+    400044: Bone_R.005
+    400046: Bone_R.006
+    400048: Bone_R.007
+    400050: Bone_R.008
+    400052: Bone_R.009
+    400054: Bone_R.010
+    400056: chatot
+    400058: //RootNode
+    4300000: chatot
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: chatot
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: blender_implicit
+        weight: 1
+      - path: Bone
+        weight: 1
+      - path: Bone/Bone.001
+        weight: 1
+      - path: Bone/Bone.001/Bone.002
+        weight: 1
+      - path: Bone/Bone.003
+        weight: 1
+      - path: Bone/Bone.003/Bone.005
+        weight: 1
+      - path: Bone/Bone.003/Bone.006
+        weight: 1
+      - path: Bone/Bone.003/Bone.007
+        weight: 1
+      - path: Bone/Bone_L.001
+        weight: 1
+      - path: Bone/Bone_L.001/Bone_L.002
+        weight: 1
+      - path: Bone/Bone_L.001/Bone_L.002/Bone_L.003
+        weight: 1
+      - path: Bone/Bone_L.001/Bone_L.002/Bone_L.003/Bone_L.004
+        weight: 1
+      - path: Bone/Bone_L.001/Bone_L.002/Bone_L.005
+        weight: 1
+      - path: Bone/Bone_L.001/Bone_L.002/Bone_L.005/Bone_L.006
+        weight: 1
+      - path: Bone/Bone_L.001/Bone_L.002/Bone_L.005/Bone_L.007
+        weight: 1
+      - path: Bone/Bone_L.001/Bone_L.002/Bone_L.005/Bone_L.008
+        weight: 1
+      - path: Bone/Bone_L.009
+        weight: 1
+      - path: Bone/Bone_L.009/Bone_L.010
+        weight: 1
+      - path: Bone/Bone_R.001
+        weight: 1
+      - path: Bone/Bone_R.001/Bone_R.002
+        weight: 1
+      - path: Bone/Bone_R.001/Bone_R.002/Bone_R.003
+        weight: 1
+      - path: Bone/Bone_R.001/Bone_R.002/Bone_R.003/Bone_R.004
+        weight: 1
+      - path: Bone/Bone_R.001/Bone_R.002/Bone_R.005
+        weight: 1
+      - path: Bone/Bone_R.001/Bone_R.002/Bone_R.005/Bone_R.006
+        weight: 1
+      - path: Bone/Bone_R.001/Bone_R.002/Bone_R.005/Bone_R.007
+        weight: 1
+      - path: Bone/Bone_R.001/Bone_R.002/Bone_R.005/Bone_R.008
+        weight: 1
+      - path: Bone/Bone_R.009
+        weight: 1
+      - path: Bone/Bone_R.009/Bone_R.010
+        weight: 1
+      - path: chatot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,407 @@
+fileFormatVersion: 2
+guid: d98aa3547cc332249a7de79e190f6b1f
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arm_01_L
+    100002: Arm_01_R
+    100004: Arm_02_L
+    100006: Arm_02_R
+    100008: Arm_03_L
+    100010: Arm_03_R
+    100012: Base Human
+    100014: Base HumanHead
+    100016: Base HumanLCalf
+    100018: Base HumanLCollarbone
+    100020: Base HumanLFoot
+    100022: Base HumanLForearm
+    100024: Base HumanLPalm
+    100026: Base HumanLPalmFingers
+    100028: Base HumanLPalmIKTarget
+    100030: Base HumanLPalmThumb
+    100032: Base HumanLPlatform
+    100034: Base HumanLThigh
+    100036: Base HumanLUpperarm
+    100038: Base HumanNeck
+    100040: Base HumanPelvis
+    100042: Base HumanRArmCollarbone
+    100044: Base HumanRArmForearm
+    100046: Base HumanRArmPalm
+    100048: Base HumanRArmUpperarm
+    100050: Base HumanRCalf
+    100052: Base HumanRFoot
+    100054: Base HumanRibcage
+    100056: Base HumanRPalmFingers
+    100058: Base HumanRPalmIKTarget
+    100060: Base HumanRPalmThumb
+    100062: Base HumanRPlatform
+    100064: Base HumanRThigh
+    100066: Base HumanSpine1
+    100068: Base HumanSpine2
+    100070: Belt_01
+    100072: Belt_02
+    100074: Belt_03
+    100076: Helmet_01
+    100078: Helmet_02
+    100080: Helmet_03
+    100082: Jets_01
+    100084: Jets_02
+    100086: Jets_03
+    100088: Leg_01_L
+    100090: Leg_01_R
+    100092: Leg_02_L
+    100094: Leg_02_R
+    100096: Leg_03_L
+    100098: Leg_03_R
+    100100: Pistol
+    100102: Plane.013
+    100104: Rifle
+    100106: //RootNode
+    100108: SpaceMan_Base
+    100110: SpaceMan_Clothe
+    100112: Suit_01
+    100114: Suit_02
+    100116: Suit_03
+    100118: Sword
+    100120: Future_AK_01
+    100122: Head
+    100124: LCalf
+    100126: LCollarbone
+    100128: LFoot
+    100130: LForearm
+    100132: LIKTarget
+    100134: Long_Rifle_01
+    100136: Long_Rifle_02
+    100138: Long_Rifle_03
+    100140: Long_Rifle_04
+    100142: LPalm
+    100144: LPlatform
+    100146: LThigh
+    100148: LUpperarm
+    100150: Neck
+    100152: PalmBone001
+    100154: PalmBone001 1
+    100156: PalmBone002
+    100158: PalmBone002 1
+    100160: Pelvis
+    100162: Pistol_01
+    100164: Pistol_02
+    100166: RArmCollarbone
+    100168: RArmForearm
+    100170: RArmIKTarget
+    100172: RArmPalm
+    100174: RArmUpperarm
+    100176: RCalf
+    100178: RFoot
+    100180: Ribcage
+    100182: Rifle_Basic_01
+    100184: RPlatform
+    100186: RThigh
+    100188: Shotgun_01
+    100190: Shotgun_02
+    100192: Shotgun_03
+    100194: SMG_01
+    100196: SMG_02
+    100198: SMG_03
+    100200: Spine1
+    100202: Spine2
+    100204: Sword_01
+    400000: Arm_01_L
+    400002: Arm_01_R
+    400004: Arm_02_L
+    400006: Arm_02_R
+    400008: Arm_03_L
+    400010: Arm_03_R
+    400012: Base Human
+    400014: Base HumanHead
+    400016: Base HumanLCalf
+    400018: Base HumanLCollarbone
+    400020: Base HumanLFoot
+    400022: Base HumanLForearm
+    400024: Base HumanLPalm
+    400026: Base HumanLPalmFingers
+    400028: Base HumanLPalmIKTarget
+    400030: Base HumanLPalmThumb
+    400032: Base HumanLPlatform
+    400034: Base HumanLThigh
+    400036: Base HumanLUpperarm
+    400038: Base HumanNeck
+    400040: Base HumanPelvis
+    400042: Base HumanRArmCollarbone
+    400044: Base HumanRArmForearm
+    400046: Base HumanRArmPalm
+    400048: Base HumanRArmUpperarm
+    400050: Base HumanRCalf
+    400052: Base HumanRFoot
+    400054: Base HumanRibcage
+    400056: Base HumanRPalmFingers
+    400058: Base HumanRPalmIKTarget
+    400060: Base HumanRPalmThumb
+    400062: Base HumanRPlatform
+    400064: Base HumanRThigh
+    400066: Base HumanSpine1
+    400068: Base HumanSpine2
+    400070: Belt_01
+    400072: Belt_02
+    400074: Belt_03
+    400076: Helmet_01
+    400078: Helmet_02
+    400080: Helmet_03
+    400082: Jets_01
+    400084: Jets_02
+    400086: Jets_03
+    400088: Leg_01_L
+    400090: Leg_01_R
+    400092: Leg_02_L
+    400094: Leg_02_R
+    400096: Leg_03_L
+    400098: Leg_03_R
+    400100: Pistol
+    400102: Plane.013
+    400104: Rifle
+    400106: //RootNode
+    400108: SpaceMan_Base
+    400110: SpaceMan_Clothe
+    400112: Suit_01
+    400114: Suit_02
+    400116: Suit_03
+    400118: Sword
+    400120: Future_AK_01
+    400122: Head
+    400124: LCalf
+    400126: LCollarbone
+    400128: LFoot
+    400130: LForearm
+    400132: LIKTarget
+    400134: Long_Rifle_01
+    400136: Long_Rifle_02
+    400138: Long_Rifle_03
+    400140: Long_Rifle_04
+    400142: LPalm
+    400144: LPlatform
+    400146: LThigh
+    400148: LUpperarm
+    400150: Neck
+    400152: PalmBone001
+    400154: PalmBone001 1
+    400156: PalmBone002
+    400158: PalmBone002 1
+    400160: Pelvis
+    400162: Pistol_01
+    400164: Pistol_02
+    400166: RArmCollarbone
+    400168: RArmForearm
+    400170: RArmIKTarget
+    400172: RArmPalm
+    400174: RArmUpperarm
+    400176: RCalf
+    400178: RFoot
+    400180: Ribcage
+    400182: Rifle_Basic_01
+    400184: RPlatform
+    400186: RThigh
+    400188: Shotgun_01
+    400190: Shotgun_02
+    400192: Shotgun_03
+    400194: SMG_01
+    400196: SMG_02
+    400198: SMG_03
+    400200: Spine1
+    400202: Spine2
+    400204: Sword_01
+    2300000: Arm_01_L
+    2300002: Arm_01_R
+    2300004: Arm_02_L
+    2300006: Arm_02_R
+    2300008: Arm_03_L
+    2300010: Arm_03_R
+    2300012: Helmet_01
+    2300014: Helmet_02
+    2300016: Helmet_03
+    2300018: Jets_01
+    2300020: Jets_02
+    2300022: Jets_03
+    2300024: Leg_01_L
+    2300026: Leg_01_R
+    2300028: Leg_02_L
+    2300030: Leg_02_R
+    2300032: Leg_03_L
+    2300034: Leg_03_R
+    2300036: Pistol
+    2300038: Plane.013
+    2300040: Rifle
+    2300042: Suit_01
+    2300044: Suit_02
+    2300046: Suit_03
+    2300048: Sword
+    2300050: Future_AK_01
+    2300052: Long_Rifle_01
+    2300054: Long_Rifle_02
+    2300056: Long_Rifle_03
+    2300058: Long_Rifle_04
+    2300060: Pistol_01
+    2300062: Pistol_02
+    2300064: Rifle_Basic_01
+    2300066: Shotgun_01
+    2300068: Shotgun_02
+    2300070: Shotgun_03
+    2300072: SMG_01
+    2300074: SMG_02
+    2300076: SMG_03
+    2300078: Sword_01
+    3300000: Arm_01_L
+    3300002: Arm_01_R
+    3300004: Arm_02_L
+    3300006: Arm_02_R
+    3300008: Arm_03_L
+    3300010: Arm_03_R
+    3300012: Helmet_01
+    3300014: Helmet_02
+    3300016: Helmet_03
+    3300018: Jets_01
+    3300020: Jets_02
+    3300022: Jets_03
+    3300024: Leg_01_L
+    3300026: Leg_01_R
+    3300028: Leg_02_L
+    3300030: Leg_02_R
+    3300032: Leg_03_L
+    3300034: Leg_03_R
+    3300036: Pistol
+    3300038: Plane.013
+    3300040: Rifle
+    3300042: Suit_01
+    3300044: Suit_02
+    3300046: Suit_03
+    3300048: Sword
+    3300050: Future_AK_01
+    3300052: Long_Rifle_01
+    3300054: Long_Rifle_02
+    3300056: Long_Rifle_03
+    3300058: Long_Rifle_04
+    3300060: Pistol_01
+    3300062: Pistol_02
+    3300064: Rifle_Basic_01
+    3300066: Shotgun_01
+    3300068: Shotgun_02
+    3300070: Shotgun_03
+    3300072: SMG_01
+    3300074: SMG_02
+    3300076: SMG_03
+    3300078: Sword_01
+    4300000: Belt_03
+    4300002: Belt_01
+    4300004: Belt_02
+    4300006: Leg_01_L
+    4300008: Leg_02_L
+    4300010: Leg_03_L
+    4300012: Leg_01_R
+    4300014: Leg_02_R
+    4300016: Leg_03_R
+    4300018: Arm_01_L
+    4300020: Arm_02_L
+    4300022: Arm_03_L
+    4300024: Helmet_01
+    4300026: Helmet_02
+    4300028: Helmet_03
+    4300030: Arm_01_R
+    4300032: Arm_02_R
+    4300034: Arm_03_R
+    4300036: Suit_01
+    4300038: Jets_01
+    4300040: Suit_02
+    4300042: Jets_02
+    4300044: Suit_03
+    4300046: Jets_03
+    4300048: SpaceMan_Clothe
+    4300050: Plane.013
+    4300052: Rifle
+    4300054: Pistol
+    4300056: Sword
+    4300058: SpaceMan_Base
+    4300060: Future_AK_01
+    4300062: Long_Rifle_01
+    4300064: Long_Rifle_02
+    4300066: Long_Rifle_03
+    4300068: Long_Rifle_04
+    4300070: Pistol_01
+    4300072: Pistol_02
+    4300074: Rifle_Basic_01
+    4300076: Shotgun_01
+    4300078: Shotgun_02
+    4300080: Shotgun_03
+    4300082: SMG_01
+    4300084: SMG_02
+    4300086: SMG_03
+    4300088: Sword_01
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Belt_01
+    13700002: Belt_02
+    13700004: Belt_03
+    13700006: SpaceMan_Base
+    13700008: SpaceMan_Clothe
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
